@@ -1,0 +1,217 @@
+\ProvidesPackage{notespreamble}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1.0in]{geometry}
+\usepackage[medium]{titlesec}
+\usepackage{enumerate, float, caption, subcaption,
+nicefrac, mathtools, parskip, fancyhdr, algorithm, algpseudocode,
+amsmath, amsthm, amssymb, tikz, csquotes}
+\usetikzlibrary{positioning, arrows, cd}
+\usepackage[en-GB]{datetime2}
+\DTMlangsetup[en-GB]{ord=omit}
+\usepackage[shortlabels]{enumitem}
+\usepackage[unicode]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=red,
+    urlcolor=blue,
+    citecolor=blue
+}
+\let\C\relax
+\usepackage{graphicx}
+\usepackage[capitalize, noabbrev]{cleveref}
+\setenumerate[1]{label=(\alph*), ref=\alph*}
+
+% Numbers
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\F}{\mathbb{F}}
+\DeclareMathOperator{\Real}{Re}
+\DeclareMathOperator{\Imag}{Im}
+\newcommand{\X}{\mathbf{X}}
+
+% Probability, Statistics, and Machine Learning
+\newcommand{\Prob}{\mathbb{P}}
+\DeclareMathOperator*{\E}{\mathbb{E}}
+\newcommand{\D}{\mathbb{D}}
+\DeclareMathOperator{\Var}{Var}
+\DeclareMathOperator{\Cov}{Cov}
+\DeclareMathOperator{\Corr}{Corr}
+\DeclareMathOperator{\RC}{RC}
+\DeclareMathOperator{\loss}{loss}
+\DeclareMathOperator{\AIC}{AIC}
+\DeclareMathOperator{\BIC}{BIC}
+\DeclareMathOperator{\doop}{do}
+\DeclareMathOperator{\pa}{pa}
+\DeclareMathOperator{\de}{de}
+\DeclareMathOperator{\softmax}{softmax}
+\DeclareMathOperator{\ReLU}{ReLU}
+\DeclareMathOperator{\NN}{NN}
+\DeclareMathOperator{\MLP}{MLP}
+
+% Graph Neural Networks
+\DeclareMathOperator{\Agg}{Agg}
+\DeclareMathOperator{\Up}{Up}
+\DeclareMathOperator{\Read}{Read}
+
+% Linear and Homological Algebra
+\DeclareMathOperator{\Mat}{Mat}
+\DeclareMathOperator{\End}{End}
+\DeclareMathOperator{\Hom}{Hom}
+\DeclareMathOperator{\Id}{Id}
+\DeclareMathOperator{\diag}{diag}
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\nullity}{nullity}
+\DeclareMathOperator{\trace}{tr}
+\DeclareMathOperator{\adj}{adj}
+\DeclareMathOperator{\Spec}{Spec}
+\DeclareMathOperator{\Span}{span}
+\DeclareMathOperator{\coker}{coker}
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Sym}{Sym}
+\DeclareMathOperator{\Tor}{Tor}
+\DeclareMathOperator{\Ext}{Ext}
+\DeclareMathOperator{\sign}{sgn}
+\DeclareMathOperator{\GL}{GL}
+\DeclareMathOperator{\PGL}{PGL}
+\DeclareMathOperator{\SL}{SL}
+\DeclareMathOperator{\proj}{proj}
+\DeclareMathOperator{\Iso}{Iso}
+\DeclareMathOperator{\Ad}{Ad}
+\DeclareMathOperator{\free}{\mbox{\scriptsize free}}
+\DeclareMathOperator{\tors}{\mbox{\scriptsize tors}}
+
+% Topology and Geometry
+\DeclareMathOperator{\Sing}{Sing}
+\DeclareMathOperator{\CW}{CW}
+\DeclareMathOperator{\dR}{dR}
+\DeclareMathOperator{\point}{pt}
+\DeclareMathOperator{\pt}{pt}
+\DeclareMathOperator{\pts}{pts}
+\DeclareMathOperator{\Sq}{Sq}
+\DeclareMathOperator{\Cech}{\check{C}}
+\DeclareMathOperator{\Rips}{Rips}
+\newcommand{\grad}{\nabla}
+\DeclareMathOperator{\Lk}{Lk}
+\DeclareMathOperator{\Ric}{Ric}
+
+% Category Theory
+\newcommand{\Top}{\mathsf{Top}}
+\newcommand{\Ab}{\mathsf{Ab}}
+\newcommand{\Grp}{\mathsf{Grp}}
+\newcommand{\Ring}{\mathsf{Ring}}
+\newcommand{\Vect}[1]{#1\text{-}\mathsf{Vect}}
+\newcommand{\Mod}[1]{#1\text{-}\mathsf{Mod}}
+\newcommand{\Set}{\mathsf{Set}}
+\newcommand{\dirlim}{\underrightarrow{\lim}}
+\newcommand{\invlim}{\underleftarrow{\lim}}
+
+% Miscellaneous
+\newcommand{\eps}{\varepsilon}
+\newcommand{\1}{\mathbf{1}}
+\newcommand{\dee}{\mathrm{d}}
+\DeclareMathOperator{\eval}{eval}
+\DeclareMathOperator{\diam}{diam}
+\DeclareMathOperator{\dom}{dom}
+\DeclareMathOperator{\cod}{cod}
+\DeclareMathOperator{\image}{im}
+\DeclareMathOperator{\supp}{supp}
+\DeclareMathOperator*{\argmin}{argmin}
+\DeclareMathOperator*{\argmax}{argmax}
+
+% Calligraphic Letters
+\newcommand{\Ayy}{\mathcal{A}}
+\newcommand{\Bee}{\mathcal{B}}
+\newcommand{\Cee}{\mathcal{C}}
+\newcommand{\Dee}{\mathcal{D}}
+\newcommand{\Eee}{\mathcal{E}}
+\newcommand{\Eff}{\mathcal{F}}
+\newcommand{\Gee}{\mathcal{G}}
+\newcommand{\Haich}{\mathcal{H}}
+\newcommand{\Eye}{\mathcal{I}}
+\newcommand{\Jay}{\mathcal{J}}
+\newcommand{\Kay}{\mathcal{K}}
+\newcommand{\Ell}{\mathcal{L}}
+\newcommand{\Emm}{\mathcal{M}}
+\newcommand{\Enn}{\mathcal{N}}
+\newcommand{\Ohh}{\mathcal{O}}
+\newcommand{\Pee}{\mathcal{P}}
+\newcommand{\Que}{\mathcal{Q}}
+\newcommand{\Arr}{\mathcal{R}}
+\newcommand{\Ess}{\mathcal{S}}
+\newcommand{\Tee}{\mathcal{T}}
+\newcommand{\You}{\mathcal{U}}
+\newcommand{\Vee}{\mathcal{V}}
+\newcommand{\DoubleU}{\mathcal{W}}
+\newcommand{\Eks}{\mathcal{X}}
+\newcommand{\Why}{\mathcal{Y}}
+\newcommand{\Zee}{\mathcal{Z}}
+% For non-American users
+\newcommand{\Zed}{\mathcal{Z}}
+
+% funny
+\newcommand{\longhomotopy}[1]{\scalebox{#1}[1]{\ensuremath{\simeq}}}
+\newcommand{\longsmile}[1]{\scalebox{#1}[1]{\ensuremath{\smile}}}
+\newcommand{\longfrown}[1]{\scalebox{#1}[1]{\ensuremath{\frown}}}
+\newcommand{\UUU}{U\hspace{-0.4em}U\hspace{-0.4em}U}
+\newcommand{\VVV}{V\hspace{-0.4em}V\hspace{-0.4em}V}
+\newcommand{\uuu}{u\hspace{-0.3em}u\hspace{-0.3em}u}
+\newcommand{\vvv}{v\hspace{-0.25em}v\hspace{-0.25em}v}
+\newcommand{\NNN}{N\hspace{-0.45em}N\hspace{-0.45em}N}
+\newcommand{\nnn}{n\hspace{-0.3em}n\hspace{-0.3em}n}
+
+% Operators
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\inprod}[2]{\left\langle #1, #2 \right\rangle}
+\newcommand{\transpose}{\intercal}
+\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
+\newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}
+\newcommand{\abs}[1]{\left| #1 \right|}
+\newcommand{\multiset}[1]
+    {\ensuremath{\left\{\kern-.3em\left\{#1\right\}\kern-.3em\right\}}}
+\newcommand{\partials}[2][]{\frac{\partial #1}{\partial #2}}
+\newcommand\Perp{\protect\mathpalette{\protect\independenT}{\perp}}
+\def\independenT#1#2{\mathrel{\rlap{$#1#2$}\mkern2mu{#1#2}}}
+
+% Arrows
+\newcommand{\ot}{\leftarrow}
+\newcommand{\xto}[2][]{\xrightarrow[#1]{#2}}
+\newcommand{\xot}[2][]{\xleftarrow[#1]{#2}}
+\newcommand{\To}{\Rightarrow}
+
+\newcommand\dhrightarrow{%
+  \mathrel{\ooalign{$\rightarrow$\cr%
+  $\mkern3.5mu\rightarrow$}}
+}
+
+\newcommand\dhxrightarrow[2][]{%
+  \mathrel{\ooalign{$\xrightarrow[#1\mkern4mu]{#2\mkern4mu}$\cr%
+  \hidewidth$\rightarrow\mkern4mu$}}
+}
+
+% Environments
+\makeatother
+\newenvironment{solution}{\par\textit{Solution.}}{\smallskip\par}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem*{exercise*}{Exercise}
+\newtheorem{problem}{Problem}
+\newtheorem*{problem*}{Problem}
+\newtheorem*{corollary*}{Corollary}
+\newtheorem*{claim*}{Claim}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem*{slogan}{Slogan}
+
+\pagestyle{fancy}
