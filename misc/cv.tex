@@ -1,0 +1,172 @@
+\documentclass[10pt]{moderncv}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.5in]{geometry}
+\usepackage[backend=bibtex,sorting=ydnt]{biblatex}
+\recomputelengths
+\moderncvtheme[blue]{classic}
+\addbibresource{publications.bib}
+\setlength{\hintscolumnwidth}{2.5cm}
+
+% Fix publication spacing
+% Audrey on tex.stackexchange https://tex.stackexchange.com/questions/123805/creating-bibliographies-with-biblatex-and-moderncv
+\defbibenvironment{bibliography}
+  {\list
+     {\printtext[labelnumberwidth]{% label format from numeric.bbx
+        \printfield{labelprefix}%
+        \printfield{labelnumber}}}
+     {\setlength{\topsep}{0pt}% layout parameters from moderncvstyleclassic.sty
+      \setlength{\labelwidth}{\hintscolumnwidth}%
+      \setlength{\labelsep}{\separatorcolumnwidth}%
+      \leftmargin\labelwidth%
+      \advance\leftmargin\labelsep}%
+      \sloppy\clubpenalty4000\widowpenalty4000}
+  {\endlist}
+  {\item}
+
+% cvtripleitem command
+% Gonzalo Medina on tex.stackexchange.com https://tex.stackexchange.com/questions/171909/how-to-implement-cvtripleitem-in-moderncv
+
+\newlength\Tripleitemmaincolumnwidth
+\newlength\tripleitemmaincolumnwidth
+
+\AtBeginDocument{%
+\setlength\tripleitemmaincolumnwidth{% 
+  \maincolumnwidth-2\hintscolumnwidth-2\separatorcolumnwidth}%
+\setlength\tripleitemmaincolumnwidth{.333333\tripleitemmaincolumnwidth}%   
+}
+\newcommand*{\cvtripleitem}[7][.25em]{%
+\cvitem[#1]{#2}{%
+    \begin{minipage}[t]{\tripleitemmaincolumnwidth}#3\end{minipage}%
+    \hfill
+    \begin{minipage}[t]{\hintscolumnwidth}\raggedleft\hintstyle{#4}\end{minipage}%
+    \hspace*{\separatorcolumnwidth}%
+    \begin{minipage}[t]{\tripleitemmaincolumnwidth}#5\end{minipage}%
+    \hfill
+    \begin{minipage}[t]{\hintscolumnwidth}\raggedleft\hintstyle{#6}\end{minipage}%
+    \hspace*{\separatorcolumnwidth}%
+    \begin{minipage}[t]{\tripleitemmaincolumnwidth}#7\end{minipage}%
+    }%
+ }
+
+% Remove publication numbers
+% karlkoeller on tex.stackexchange at https://tex.stackexchange.com/questions/219935/remove-numbers-from-cv-bibliography-using-biblatex-in-texshop
+\DeclareFieldFormat{labelnumberwidth}{}
+\setlength{\biblabelsep}{0pt}
+
+% Personal info
+\firstname{Jesse}
+\familyname{He}
+\title{Curriculum Vitae}
+\address{HDSI 432, 3234 Matthews Lane}{La Jolla, CA, 92093}
+\mobile{(419) 378-5584}
+\let\myemaillink\emaillink
+\let\myemailsymbol\emailsymbol
+\renewcommand{\emaillink}[1]{#1}
+\renewcommand{\emailsymbol}{}
+\email{
+  \myemailsymbol \myemaillink{jeh020@ucsd.edu} \\
+  \myemailsymbol \myemaillink{jessehe.inbox@gmail.com} \\
+}
+% \social[github]{he-jesse}
+\homepage{he-jesse.github.io}
+\nopagenumbers{}
+
+\begin{document}
+\makecvtitle
+
+\section*{Education}
+
+\cventry{}{Halıcıoğlu Data Science Institute, UC San Diego}{}{San Diego, California}{}{}
+\cvline{}{PhD Student, Advised by Profs. Yusu Wang, Gal Mishne}
+% \cvline{}{Advised by Profs. Yusu Wang, Gal Mishne}
+
+\cventry{}{The Ohio State University}{}{Columbus, OH}{}{}
+\cvline{}{Bachelor of Science in Mathematics (Honors), \textit{magna cum laude} \hfill May 2022}
+\cvline{}{Bachelor of Arts in Computer and Information Science, \textit{magna cum laude} \hfill May 2022}
+% \cvline{}{GPA: 3.894}
+
+\section*{Research Interests}
+\cvline{}{
+    My research interests lie in using geometric and topological techniques
+    to interpret complex data, including manifold learning,
+    topological data analysis, and explainable geometric deep learning.
+}    
+
+\nocite{*}
+\printbibliography[title={Publications}]
+
+\section*{Employment}
+
+\subsection*{Research}
+
+\cventry{SU2024}{National Security Internship, AI and Data Analytics}
+    {Pacific Northwest National Laboratory}
+    {Richland, WA (online)}{}{Supervised by Dr. Henry Kvinge}
+
+
+\cventry{SU2021}{Emerging Issues in Cybersecurity REU}
+    {New Mexico Tech}
+    {Sorocco, NM (online)}{}{Supervised by Prof. Subhasish Mazumdar}
+
+\subsection*{Teaching}
+
+\cventry{}{Graduate Teaching Assistant}
+    {UC San Diego, Halıcıoğlu Data Science Institute}{}{}{}
+\cvline{WI 2024}{DSC 206: Algorithms for Data Science}
+
+\cventry{}{Undergraduate Grader}
+    {The Ohio State University Department of Mathematics}{}{}{}
+
+\cvline{SP2022}{Math 3345H: Honors Foundations of Higher Mathematics}
+\cvline{SP2022}{Math 5591H/5112: Honors Abstract Algebra II}
+\cvline{AU2021}{Math 5590H/5111: Honors Abstract Algebra I}
+\cventry{}{Undergraduate Grader}
+    {The Ohio State University Department of Computer Science and Engineering}{}{}{}
+\cvline{AU2020-SP2021}{CSE 3521: Survey of Artificial Intelligence I}
+\cvline{AU2019}{CSE 2221: Software Components}
+
+\cventry{}{Digital Sandbox Project Group Instructor}
+    {The Ohio State University Media, Marketing, and Communications Scholars}{}{}{}
+\cvline{SP2020}{Introduction to \LaTeX}
+
+\section*{Awards}
+
+\cvline{}{Qualcomm Innovation Fellowship 2024 Winner}
+
+% \section*{Service}
+
+% \cvline{}{Add service once I have e.g. reviewed conference submissions or been on a student committee}
+
+% \newpage
+% \section*{Presentations}
+
+% \subsection*{Conference Presentations}
+
+% \cvline{27 Oct. 2021}{``Using Polygonal Data Clusters to Investigate LIME,''
+%     14th International Conference on Information Society (i-Society).
+%     Dún Laoghaire, Ireland (virtual), October 2021.}
+
+% \subsection*{Seminar Presentations}
+
+% \cvline{\emph{Reading Classics} SP2022}{``A History of Curvature''}
+% \cvline{\emph{What Is...?} SU2021}{``What Is Arrow's Impossibility Theorem?''}
+% \cvline{\emph{Reading Classics} SP2021}{``A History of Computational Linear Algebra:
+%     The Theory of Tables of Numbers Through Time''}
+% \cvline{\emph{Reading Classics} AU2020}{``Tuning, Temperament, Timbre, and Twos:
+%     Why Rectifying Resonant Ratios Requires Roots''}
+% \cvline{\emph{Reading Classics} SP2020}
+%     {``Deduced and Demonstrated Difficulties in Democratically Determining Decisions''}
+
+\section*{Skills}
+\cvline{Programming}{Python, Matlab, R, C, C++, C\#, Java}
+\cvline{Other}{Git, \LaTeX, Max/MSP/Jitter, Cockos REAPER}
+
+\section*{Languages}
+\cvtripleitem{Mandarin}{Conversational}{Japanese}{Basic}{Spanish}{Basic}
+
+% \section*{Other Interests}
+% % \cvline{Data Science}{Interpretable Graph Learning,
+% % Manifold Learning, Topological Data Analysis}
+% \cvline{}{Digital Music Synthesis, Music Theory and Composition}
+
+\end{document}

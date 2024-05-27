@@ -1,0 +1,107 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{ydnt/global//global/global/global}
+  \entry{ic-pml-tag-icml2023}{inproceedings}{}{}
+    \name{author}{3}{}{%
+      {{hash=m}{%
+         family={\mkbibbold{Jesse He}},
+         familyi={m\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Brug\`ere},
+         familyi={B\bibinitperiod},
+         given={Tristan},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Mishne},
+         familyi={M\bibinitperiod},
+         given={Gal},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \name{editor}{7}{}{%
+      {{hash=DT}{%
+         family={Doster},
+         familyi={D\bibinitperiod},
+         given={Timothy},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=ET}{%
+         family={Emerson},
+         familyi={E\bibinitperiod},
+         given={Tegan},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=KH}{%
+         family={Kvinge},
+         familyi={K\bibinitperiod},
+         given={Henry},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=MN}{%
+         family={Miolane},
+         familyi={M\bibinitperiod},
+         given={Nina},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Papillon},
+         familyi={P\bibinitperiod},
+         given={Mathilde},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RB}{%
+         family={Rieck},
+         familyi={R\bibinitperiod},
+         given={Bastian},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Sanborn},
+         familyi={S\bibinitperiod},
+         given={Sophia},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {PMLR}%
+    }
+    \strng{namehash}{mBTMG1}
+    \strng{fullhash}{mBTMG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{booktitle}{Proceedings of 2nd Annual Workshop on Topology, Algebra, and Geometry in Machine Learning (TAG-ML)}
+    \field{pages}{267\bibrangedash 277}
+    \field{series}{Proceedings of Machine Learning Research}
+    \field{title}{Product Manifold Learning with Independent Coordinate Selection}
+    \verb{url}
+    \verb https://proceedings.mlr.press/v221/he23a.html
+    \endverb
+    \field{volume}{221}
+    \verb{file}
+    \verb https://proceedings.mlr.press/v221/he23a/he23a.pdf
+    \endverb
+    \field{year}{2023}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+\enddatalist
+\endinput
