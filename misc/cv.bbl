@@ -37,9 +37,11 @@
          given={Davis},
          giveni={D\bibinitperiod},
       }}%
-      {{hash=m}{%
-         family={\mkbibbold{Jesse He}},
-         familyi={m\bibinitperiod},
+      {{hash=HJ}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Jesse},
+         giveni={J\bibinitperiod},
       }}%
       {{hash=RM}{%
          family={Raugas},
@@ -61,7 +63,7 @@
       }}%
     }
     \strng{namehash}{CH+1}
-    \strng{fullhash}{CHJHBDmRMBSCKH1}
+    \strng{fullhash}{CHJHBDHJRMBSCKH1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{7}
@@ -74,60 +76,13 @@
     \field{year}{2024}
   \endentry
 
-  \entry{kohli2024robustestimationboundaryusing}{misc}{}{}
-    \name{author}{5}{}{%
-      {{hash=KD}{%
-         family={Kohli},
-         familyi={K\bibinitperiod},
-         given={Dhruv},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=m}{%
-         family={\mkbibbold{Jesse He}},
-         familyi={m\bibinitperiod},
-      }}%
-      {{hash=HC}{%
-         family={Holtz},
-         familyi={H\bibinitperiod},
-         given={Chester},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=MG}{%
-         family={Mishne},
-         familyi={M\bibinitperiod},
-         given={Gal},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=CA}{%
-         family={Cloninger},
-         familyi={C\bibinitperiod},
-         given={Alexander},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{KD+1}
-    \strng{fullhash}{KDmHCMGCA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{7}
-    \field{sortinithash}{7}
-    \verb{eprint}
-    \verb 2411.18942
-    \endverb
-    \field{title}{Robust estimation of boundary using doubly stochastic scaling of Gaussian kernel}
-    \verb{url}
-    \verb https://arxiv.org/abs/2411.18942
-    \endverb
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{math.ST}
-    \field{year}{2024}
-  \endentry
-
   \entry{he2024machinesmathematicalmutationsusing}{misc}{}{}
     \name{author}{7}{}{%
-      {{hash=m}{%
-         family={\mkbibbold{Jesse He}},
-         familyi={m\bibinitperiod},
+      {{hash=HJ}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Jesse},
+         giveni={J\bibinitperiod},
       }}%
       {{hash=JH}{%
          family={Jenne},
@@ -166,8 +121,8 @@
          giveni={H\bibinitperiod},
       }}%
     }
-    \strng{namehash}{m+1}
-    \strng{fullhash}{mJHCHBDRMBSKH1}
+    \strng{namehash}{HJ+1}
+    \strng{fullhash}{HJJHCHBDRMBSKH1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{7}
@@ -184,11 +139,64 @@
     \field{year}{2024}
   \endentry
 
+  \entry{kohli2024robustestimationboundaryusing}{misc}{}{}
+    \name{author}{5}{}{%
+      {{hash=KD}{%
+         family={Kohli},
+         familyi={K\bibinitperiod},
+         given={Dhruv},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Jesse},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HC}{%
+         family={Holtz},
+         familyi={H\bibinitperiod},
+         given={Chester},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Mishne},
+         familyi={M\bibinitperiod},
+         given={Gal},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Cloninger},
+         familyi={C\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KD+1}
+    \strng{fullhash}{KDHJHCMGCA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \verb{eprint}
+    \verb 2411.18942
+    \endverb
+    \field{title}{Robust estimation of boundary using doubly stochastic scaling of Gaussian kernel}
+    \verb{url}
+    \verb https://arxiv.org/abs/2411.18942
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{math.ST}
+    \field{year}{2024}
+  \endentry
+
   \entry{ic-pml-tag-icml2023}{inproceedings}{}{}
     \name{author}{3}{}{%
-      {{hash=m}{%
-         family={\mkbibbold{Jesse He}},
-         familyi={m\bibinitperiod},
+      {{hash=HJ}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Jesse},
+         giveni={J\bibinitperiod},
       }}%
       {{hash=BT}{%
          family={Brug\`ere},
@@ -250,8 +258,8 @@
     \list{publisher}{1}{%
       {PMLR}%
     }
-    \strng{namehash}{mBTMG1}
-    \strng{fullhash}{mBTMG1}
+    \strng{namehash}{HJBTMG1}
+    \strng{fullhash}{HJBTMG1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{7}
