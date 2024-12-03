@@ -1,11 +1,43 @@
 \documentclass[10pt]{moderncv}
 \usepackage[utf8]{inputenc}
-\usepackage[margin=0.5in]{geometry}
-\usepackage[maxbibnames=99,backend=bibtex,sorting=ydnt]{biblatex}
+\usepackage[margin=1.0in]{geometry}
+\usepackage[
+    maxbibnames=99,
+    backend=bibtex,
+    sorting=none]{biblatex}
 \recomputelengths
 \moderncvtheme[blue]{classic}
 \addbibresource{publications.bib}
-\setlength{\hintscolumnwidth}{2.5cm}
+\setlength{\hintscolumnwidth}{1in}
+
+% Bold my name
+% 
+\def\makenamesetup{%
+  \def\bibnamedelima{~}%
+  \def\bibnamedelimb{ }%
+  \def\bibnamedelimc{ }%
+  \def\bibnamedelimd{ }%
+  \def\bibnamedelimi{ }%
+  \def\bibinitperiod{.}%
+  \def\bibinitdelim{~}%
+  \def\bibinithyphendelim{.-}}    
+\newcommand*{\makename}[2]{\begingroup\makenamesetup\xdef#1{#2}\endgroup}
+
+\newcommand*{\boldname}[3]{%
+  \def\lastname{#1}%
+  \def\firstname{#2}%
+  \def\firstinit{#3}}
+
+% Patch new definitions
+\renewcommand{\mkbibnamegiven}[1]{%
+  \ifboolexpr{ ( test {\ifdefequal{\firstname}{\namepartgiven}} or test {\ifdefequal{\firstinit}{\namepartgiven}} ) and test {\ifdefequal{\lastname}{\namepartfamily}} }
+  {\mkbibbold{#1}}{#1}%
+}
+
+\renewcommand{\mkbibnamefamily}[1]{%
+  \ifboolexpr{ ( test {\ifdefequal{\firstname}{\namepartgiven}} or test {\ifdefequal{\firstinit}{\namepartgiven}} ) and test {\ifdefequal{\lastname}{\namepartfamily}} }
+  {\mkbibbold{#1}}{#1}%
+}
 
 % Fix publication spacing
 % Audrey on tex.stackexchange https://tex.stackexchange.com/questions/123805/creating-bibliographies-with-biblatex-and-moderncv
@@ -87,12 +119,13 @@
 
 \section*{Research Interests}
 \cvline{}{
-    My research interests lie in using geometric and topological techniques
-    to interpret complex data, including manifold learning,
-    topological data analysis, and explainable geometric deep learning.
+    My research interests lie in the intersection of interpretable machine learning
+    and geometric data analysis. In particular, I am interested in explainability methods
+    for graph neural networks and interpretable manifold learning.
 }    
 
 \nocite{*}
+\boldname{He}{Jesse}{J.}
 \printbibliography[title={Publications}]
 
 \section*{Employment}

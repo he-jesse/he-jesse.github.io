@@ -16,25 +16,13 @@
   {}
 \endgroup
 
-\datalist[entry]{ydnt/global//global/global/global}
-  \entry{chau2024machine}{inproceedings}{}{}
-    \name{author}{7}{}{%
-      {{hash=CH}{%
-         family={Chau},
-         familyi={C\bibinitperiod},
-         given={Herman},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=JH}{%
-         family={Jenne},
-         familyi={J\bibinitperiod},
-         given={Helen},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=BD}{%
-         family={Brown},
-         familyi={B\bibinitperiod},
-         given={Davis},
+\datalist[entry]{none/global//global/global/global}
+  \entry{kohli2024robustestimationboundaryusing}{misc}{}{}
+    \name{author}{5}{}{%
+      {{hash=KD}{%
+         family={Kohli},
+         familyi={K\bibinitperiod},
+         given={Dhruv},
          giveni={D\bibinitperiod},
       }}%
       {{hash=HJ}{%
@@ -43,36 +31,38 @@
          given={Jesse},
          giveni={J\bibinitperiod},
       }}%
-      {{hash=RM}{%
-         family={Raugas},
-         familyi={R\bibinitperiod},
-         given={Mark},
-         giveni={M\bibinitperiod},
+      {{hash=HC}{%
+         family={Holtz},
+         familyi={H\bibinitperiod},
+         given={Chester},
+         giveni={C\bibinitperiod},
       }}%
-      {{hash=BSC}{%
-         family={Billey},
-         familyi={B\bibinitperiod},
-         given={Sara\bibnamedelima C.},
-         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+      {{hash=MG}{%
+         family={Mishne},
+         familyi={M\bibinitperiod},
+         given={Gal},
+         giveni={G\bibinitperiod},
       }}%
-      {{hash=KH}{%
-         family={Kvinge},
-         familyi={K\bibinitperiod},
-         given={Henry},
-         giveni={H\bibinitperiod},
+      {{hash=CA}{%
+         family={Cloninger},
+         familyi={C\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{CH+1}
-    \strng{fullhash}{CHJHBDHJRMBSCKH1}
+    \strng{namehash}{KD+1}
+    \strng{fullhash}{KDHJHCMGCA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{7}
-    \field{sortinithash}{7}
-    \field{booktitle}{The 4th Workshop on Mathematical Reasoning and AI at NeurIPS'24}
-    \field{title}{Machine Learning meets Algebraic Combinatorics: A Suite of Datasets to Accelerate {AI} for Mathematics Research}
-    \verb{url}
-    \verb https://openreview.net/forum?id=KQ1gI5qzAf
+    \verb{eprint}
+    \verb 2411.18942
     \endverb
+    \field{title}{Robust estimation of boundary using doubly stochastic scaling of Gaussian kernel}
+    \verb{url}
+    \verb https://arxiv.org/abs/2411.18942
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{math.ST}
     \field{year}{2024}
   \endentry
 
@@ -125,11 +115,10 @@
     \strng{fullhash}{HJJHCHBDRMBSKH1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{7}
-    \field{sortinithash}{7}
     \verb{eprint}
     \verb 2411.07467
     \endverb
+    \field{note}{Extended abstract in the 4th Workshop on Mathematical Reasoning and AI at NeurIPS'24}
     \field{title}{Machines and Mathematical Mutations: Using GNNs to Characterize Quiver Mutation Classes}
     \verb{url}
     \verb https://arxiv.org/abs/2411.07467
@@ -139,12 +128,24 @@
     \field{year}{2024}
   \endentry
 
-  \entry{kohli2024robustestimationboundaryusing}{misc}{}{}
-    \name{author}{5}{}{%
-      {{hash=KD}{%
-         family={Kohli},
-         familyi={K\bibinitperiod},
-         given={Dhruv},
+  \entry{chau2024machine}{inproceedings}{}{}
+    \name{author}{7}{}{%
+      {{hash=CH}{%
+         family={Chau},
+         familyi={C\bibinitperiod},
+         given={Herman},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=JH}{%
+         family={Jenne},
+         familyi={J\bibinitperiod},
+         given={Helen},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={Davis},
          giveni={D\bibinitperiod},
       }}%
       {{hash=HJ}{%
@@ -153,40 +154,34 @@
          given={Jesse},
          giveni={J\bibinitperiod},
       }}%
-      {{hash=HC}{%
-         family={Holtz},
-         familyi={H\bibinitperiod},
-         given={Chester},
-         giveni={C\bibinitperiod},
+      {{hash=RM}{%
+         family={Raugas},
+         familyi={R\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
       }}%
-      {{hash=MG}{%
-         family={Mishne},
-         familyi={M\bibinitperiod},
-         given={Gal},
-         giveni={G\bibinitperiod},
+      {{hash=BSC}{%
+         family={Billey},
+         familyi={B\bibinitperiod},
+         given={Sara\bibnamedelima C.},
+         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
       }}%
-      {{hash=CA}{%
-         family={Cloninger},
-         familyi={C\bibinitperiod},
-         given={Alexander},
-         giveni={A\bibinitperiod},
+      {{hash=KH}{%
+         family={Kvinge},
+         familyi={K\bibinitperiod},
+         given={Henry},
+         giveni={H\bibinitperiod},
       }}%
     }
-    \strng{namehash}{KD+1}
-    \strng{fullhash}{KDHJHCMGCA1}
+    \strng{namehash}{CH+1}
+    \strng{fullhash}{CHJHBDHJRMBSCKH1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{7}
-    \field{sortinithash}{7}
-    \verb{eprint}
-    \verb 2411.18942
-    \endverb
-    \field{title}{Robust estimation of boundary using doubly stochastic scaling of Gaussian kernel}
+    \field{booktitle}{The 4th Workshop on Mathematical Reasoning and AI at NeurIPS'24}
+    \field{title}{Machine Learning meets Algebraic Combinatorics: A Suite of Datasets to Accelerate {AI} for Mathematics Research}
     \verb{url}
-    \verb https://arxiv.org/abs/2411.18942
+    \verb https://openreview.net/forum?id=KQ1gI5qzAf
     \endverb
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{math.ST}
     \field{year}{2024}
   \endentry
 
@@ -262,8 +257,6 @@
     \strng{fullhash}{HJBTMG1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{7}
-    \field{sortinithash}{7}
     \field{booktitle}{Proceedings of 2nd Annual Workshop on Topology, Algebra, and Geometry in Machine Learning (TAG-ML)}
     \field{pages}{267\bibrangedash 277}
     \field{series}{Proceedings of Machine Learning Research}
