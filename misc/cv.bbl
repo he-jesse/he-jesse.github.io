@@ -57,6 +57,7 @@
     \verb{eprint}
     \verb 2411.18942
     \endverb
+    \field{note}{Preprint}
     \field{title}{Robust estimation of boundary using doubly stochastic scaling of Gaussian kernel}
     \verb{url}
     \verb https://arxiv.org/abs/2411.18942
@@ -118,7 +119,7 @@
     \verb{eprint}
     \verb 2411.07467
     \endverb
-    \field{note}{Extended abstract in the 4th Workshop on Mathematical Reasoning and AI at NeurIPS'24}
+    \field{note}{Preprint. Extended abstract in the 4th Workshop on Mathematical Reasoning and AI at NeurIPS'24}
     \field{title}{Machines and Mathematical Mutations: Using GNNs to Characterize Quiver Mutation Classes}
     \verb{url}
     \verb https://arxiv.org/abs/2411.07467
@@ -128,7 +129,7 @@
     \field{year}{2024}
   \endentry
 
-  \entry{chau2024machine}{inproceedings}{}{}
+  \entry{chau2025machinelearningmeetsalgebraic}{misc}{}{}
     \name{author}{7}{}{%
       {{hash=CH}{%
          family={Chau},
@@ -160,11 +161,11 @@
          given={Mark},
          giveni={M\bibinitperiod},
       }}%
-      {{hash=BSC}{%
+      {{hash=BS}{%
          family={Billey},
          familyi={B\bibinitperiod},
-         given={Sara\bibnamedelima C.},
-         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={Sara},
+         giveni={S\bibinitperiod},
       }}%
       {{hash=KH}{%
          family={Kvinge},
@@ -174,15 +175,20 @@
       }}%
     }
     \strng{namehash}{CH+1}
-    \strng{fullhash}{CHJHBDHJRMBSCKH1}
+    \strng{fullhash}{CHJHBDHJRMBSKH1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{booktitle}{The 4th Workshop on Mathematical Reasoning and AI at NeurIPS'24}
-    \field{title}{Machine Learning meets Algebraic Combinatorics: A Suite of Datasets to Accelerate {AI} for Mathematics Research}
-    \verb{url}
-    \verb https://openreview.net/forum?id=KQ1gI5qzAf
+    \verb{eprint}
+    \verb 2503.06366
     \endverb
-    \field{year}{2024}
+    \field{note}{Preprint. Extended abstract in the 4th Workshop on Mathematical Reasoning and AI at NeurIPS'24}
+    \field{title}{Machine Learning meets Algebraic Combinatorics: A Suite of Datasets Capturing Research-level Conjecturing Ability in Pure Mathematics}
+    \verb{url}
+    \verb https://arxiv.org/abs/2503.06366
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.LG}
+    \field{year}{2025}
   \endentry
 
   \entry{ic-pml-tag-icml2023}{inproceedings}{}{}
