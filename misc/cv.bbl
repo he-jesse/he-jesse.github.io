@@ -50,7 +50,7 @@
          giveni={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{KD+1}
+    \strng{namehash}{KDHJHC+1}
     \strng{fullhash}{KDHJHCMGCA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -58,10 +58,7 @@
     \verb 2411.18942
     \endverb
     \field{note}{Preprint}
-    \field{title}{Robust estimation of boundary using doubly stochastic scaling of Gaussian kernel}
-    \verb{url}
-    \verb https://arxiv.org/abs/2411.18942
-    \endverb
+    \field{title}{Robust estimation of boundary using doubly stochastic scaling of {Gaussian} kernel}
     \field{eprinttype}{arXiv}
     \field{eprintclass}{math.ST}
     \field{year}{2024}
@@ -112,21 +109,17 @@
          giveni={H\bibinitperiod},
       }}%
     }
-    \strng{namehash}{HJ+1}
+    \strng{namehash}{HJJHCH+1}
     \strng{fullhash}{HJJHCHBDRMBSKH1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{eprint}
     \verb 2411.07467
     \endverb
-    \field{note}{Preprint. Extended abstract in the 4th Workshop on Mathematical Reasoning and AI at NeurIPS'24}
-    \field{title}{Machines and Mathematical Mutations: Using GNNs to Characterize Quiver Mutation Classes}
-    \verb{url}
-    \verb https://arxiv.org/abs/2411.07467
-    \endverb
+    \field{note}{Preprint. Accepted to ICML 2025}
+    \field{title}{Machines and Mathematical Mutations: Using {GNNs} to Characterize Quiver Mutation Classes}
     \field{eprinttype}{arXiv}
     \field{eprintclass}{cs.LG}
-    \field{year}{2024}
   \endentry
 
   \entry{chau2025machinelearningmeetsalgebraic}{misc}{}{}
@@ -174,21 +167,17 @@
          giveni={H\bibinitperiod},
       }}%
     }
-    \strng{namehash}{CH+1}
+    \strng{namehash}{CHJHBD+1}
     \strng{fullhash}{CHJHBDHJRMBSKH1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{eprint}
     \verb 2503.06366
     \endverb
-    \field{note}{Preprint. Extended abstract in the 4th Workshop on Mathematical Reasoning and AI at NeurIPS'24}
+    \field{note}{Preprint. Accepted to ICML 2025 (Spotlight)}
     \field{title}{Machine Learning meets Algebraic Combinatorics: A Suite of Datasets Capturing Research-level Conjecturing Ability in Pure Mathematics}
-    \verb{url}
-    \verb https://arxiv.org/abs/2503.06366
-    \endverb
     \field{eprinttype}{arXiv}
     \field{eprintclass}{cs.LG}
-    \field{year}{2025}
   \endentry
 
   \entry{ic-pml-tag-icml2023}{inproceedings}{}{}
@@ -212,70 +201,16 @@
          giveni={G\bibinitperiod},
       }}%
     }
-    \name{editor}{7}{}{%
-      {{hash=DT}{%
-         family={Doster},
-         familyi={D\bibinitperiod},
-         given={Timothy},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=ET}{%
-         family={Emerson},
-         familyi={E\bibinitperiod},
-         given={Tegan},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=KH}{%
-         family={Kvinge},
-         familyi={K\bibinitperiod},
-         given={Henry},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=MN}{%
-         family={Miolane},
-         familyi={M\bibinitperiod},
-         given={Nina},
-         giveni={N\bibinitperiod},
-      }}%
-      {{hash=PM}{%
-         family={Papillon},
-         familyi={P\bibinitperiod},
-         given={Mathilde},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=RB}{%
-         family={Rieck},
-         familyi={R\bibinitperiod},
-         given={Bastian},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=SS}{%
-         family={Sanborn},
-         familyi={S\bibinitperiod},
-         given={Sophia},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {PMLR}%
-    }
     \strng{namehash}{HJBTMG1}
     \strng{fullhash}{HJBTMG1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{booktitle}{Proceedings of 2nd Annual Workshop on Topology, Algebra, and Geometry in Machine Learning (TAG-ML)}
-    \field{pages}{267\bibrangedash 277}
-    \field{series}{Proceedings of Machine Learning Research}
     \field{title}{Product Manifold Learning with Independent Coordinate Selection}
     \verb{url}
     \verb https://proceedings.mlr.press/v221/he23a.html
     \endverb
-    \field{volume}{221}
-    \verb{file}
-    \verb https://proceedings.mlr.press/v221/he23a/he23a.pdf
-    \endverb
     \field{year}{2023}
-    \warn{\item Invalid format of field 'month'}
   \endentry
 \enddatalist
 \endinput

@@ -3,12 +3,18 @@
 \usepackage[margin=1.0in]{geometry}
 \usepackage[
     maxbibnames=99,
+    style=ieee,
     backend=bibtex,
     sorting=none]{biblatex}
 \recomputelengths
 \moderncvtheme[blue]{classic}
 \addbibresource{publications.bib}
 \setlength{\hintscolumnwidth}{1in}
+
+\DefineBibliographyStrings{english}{
+  url = Available ,
+}
+
 
 % Bold my name
 % 
@@ -109,8 +115,7 @@
 \section*{Education}
 
 \cventry{}{Halıcıoğlu Data Science Institute, UC San Diego}{}{San Diego, California}{}{}
-\cvline{}{PhD Student, Advised by Profs. Yusu Wang, Gal Mishne}
-% \cvline{}{Advised by Profs. Yusu Wang, Gal Mishne}
+\cvline{}{PhD Student, Advised by Yusu Wang, Gal Mishne}
 
 \cventry{}{The Ohio State University}{}{Columbus, OH}{}{}
 \cvline{}{Bachelor of Science in Mathematics (Honors), \textit{magna cum laude} \hfill May 2022}
@@ -132,14 +137,14 @@
 
 \subsection*{Research}
 
-\cventry{SU2024}{National Security Internship, AI and Data Analytics}
+\cventry{SU2024-}{National Security Internship, AI and Data Analytics}
     {Pacific Northwest National Laboratory}
-    {Richland, WA (remote)}{}{Supervised by Dr. Henry Kvinge}
+    {Richland, WA (remote)}{}{Supervised by Henry Kvinge}
 
 
 \cventry{SU2021}{Emerging Issues in Cybersecurity REU}
     {New Mexico Tech}
-    {Sorocco, NM (remote)}{}{Supervised by Prof. Subhasish Mazumdar}
+    {Sorocco, NM (remote)}{}{Supervised by Subhasish Mazumdar}
 
 \subsection*{Teaching}
 
