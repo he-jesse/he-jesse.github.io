@@ -17,6 +17,59 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global/global}
+  \entry{he2025explaining}{inproceedings}{}{}
+    \name{author}{4}{}{%
+      {{hash=HJ}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Jesse},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Rafiey},
+         familyi={R\bibinitperiod},
+         given={Akbar},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Mishne},
+         familyi={M\bibinitperiod},
+         given={Gal},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=WY}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Yusu},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{explainable ml, graph neural networks}
+    \strng{namehash}{HJRAMG+1}
+    \strng{fullhash}{HJRAMGWY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2}
+    \verb{doi}
+    \verb 10.1145/3711896.3736947
+    \endverb
+    \field{isbn}{9798400714542}
+    \field{pages}{884\bibrangedash 895}
+    \field{series}{KDD '25}
+    \field{title}{Explaining {GNN} Explanations with Edge Gradients}
+    \verb{url}
+    \verb https://doi.org/10.1145/3711896.3736947
+    \endverb
+    \list{location}{1}{%
+      {Toronto ON, Canada}%
+    }
+    \field{year}{2025}
+    \warn{\item Can't use 'location' + 'address'}
+  \endentry
+
   \entry{kohli2024robustestimationboundaryusing}{misc}{}{}
     \name{author}{5}{}{%
       {{hash=KD}{%
@@ -120,6 +173,7 @@
     \field{title}{Machines and Mathematical Mutations: Using {GNNs} to Characterize Quiver Mutation Classes}
     \field{eprinttype}{arXiv}
     \field{eprintclass}{cs.LG}
+    \field{year}{2025}
   \endentry
 
   \entry{chau2025machinelearningmeetsalgebraic}{misc}{}{}
@@ -178,6 +232,7 @@
     \field{title}{Machine Learning meets Algebraic Combinatorics: A Suite of Datasets Capturing Research-level Conjecturing Ability in Pure Mathematics}
     \field{eprinttype}{arXiv}
     \field{eprintclass}{cs.LG}
+    \field{year}{2025}
   \endentry
 
   \entry{ic-pml-tag-icml2023}{inproceedings}{}{}
