@@ -112,6 +112,9 @@
     \endverb
     \field{note}{Preprint}
     \field{title}{Robust estimation of boundary using doubly stochastic scaling of {Gaussian} kernel}
+    \verb{url}
+    \verb https://arxiv.org/abs/2411.18942
+    \endverb
     \field{eprinttype}{arXiv}
     \field{eprintclass}{math.ST}
     \field{year}{2024}
@@ -169,8 +172,11 @@
     \verb{eprint}
     \verb 2411.07467
     \endverb
-    \field{note}{Preprint. Accepted to ICML 2025}
+    \field{note}{ICML 2025}
     \field{title}{Machines and Mathematical Mutations: Using {GNNs} to Characterize Quiver Mutation Classes}
+    \verb{url}
+    \verb https://arxiv.org/abs/2411.07467
+    \endverb
     \field{eprinttype}{arXiv}
     \field{eprintclass}{cs.LG}
     \field{year}{2025}
@@ -228,8 +234,11 @@
     \verb{eprint}
     \verb 2503.06366
     \endverb
-    \field{note}{Preprint. Accepted to ICML 2025 (Oral)}
+    \field{note}{ICML 2025 (Oral)}
     \field{title}{Machine Learning meets Algebraic Combinatorics: A Suite of Datasets Capturing Research-level Conjecturing Ability in Pure Mathematics}
+    \verb{url}
+    \verb https://arxiv.org/abs/2503.06366
+    \endverb
     \field{eprinttype}{arXiv}
     \field{eprintclass}{cs.LG}
     \field{year}{2025}
