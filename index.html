@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/gh/aaaakshat/cm-web-fonts@latest/fonts.css">
@@ -12,6 +13,15 @@
             padding: 2rem;
             margin: auto;
         }
+
+        .biblio_entry span:is(
+            :contains("J. He"),
+            :contains("He, J."),
+            :contains("Jesse He"),
+            :contains("He, Jesse")
+        ) {
+            font-weight: bold;
+        }
     </style>
 </head>
 
@@ -21,7 +31,7 @@
         <h1>Jesse He</h1>
             <img src="misc/jessehe.jpeg" height="200px" width="200px">
             <h2>About Me</h2>
-            I am a PhD student in the <a href="https://datascience.ucsd.edu/">
+            I am a PhD candidate in the <a href="https://datascience.ucsd.edu/">
                 Halıcıoğlu Data Science Institute
             </a> at <a href="https://www.ucsd.edu/">UC San Diego</a>.
             My advisors are <a href="http://mishne.ucsd.edu/">Gal Mishne</a> and

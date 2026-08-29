@@ -3,7 +3,8 @@
 \usepackage[margin=1.0in]{geometry}
 \usepackage[
     maxbibnames=99,
-    style=ieee,
+    uniquelist=false,
+    style=authoryear,
     backend=bibtex,
     sorting=none]{biblatex}
 \recomputelengths
@@ -14,7 +15,10 @@
 \DefineBibliographyStrings{english}{
   url = Available ,
 }
-
+\AtEveryBibitem{
+  \clearfield{editor}
+}
+\DeclareFieldFormat[online,misc]{title}{\mkbibquote{#1}}
 
 % Bold my name
 % 
@@ -72,19 +76,6 @@
   \maincolumnwidth-2\hintscolumnwidth-2\separatorcolumnwidth}%
 \setlength\tripleitemmaincolumnwidth{.333333\tripleitemmaincolumnwidth}%   
 }
-\newcommand*{\cvtripleitem}[7][.25em]{%
-\cvitem[#1]{#2}{%
-    \begin{minipage}[t]{\tripleitemmaincolumnwidth}#3\end{minipage}%
-    \hfill
-    \begin{minipage}[t]{\hintscolumnwidth}\raggedleft\hintstyle{#4}\end{minipage}%
-    \hspace*{\separatorcolumnwidth}%
-    \begin{minipage}[t]{\tripleitemmaincolumnwidth}#5\end{minipage}%
-    \hfill
-    \begin{minipage}[t]{\hintscolumnwidth}\raggedleft\hintstyle{#6}\end{minipage}%
-    \hspace*{\separatorcolumnwidth}%
-    \begin{minipage}[t]{\tripleitemmaincolumnwidth}#7\end{minipage}%
-    }%
- }
 
 % Remove publication numbers
 % karlkoeller on tex.stackexchange at https://tex.stackexchange.com/questions/219935/remove-numbers-from-cv-bibliography-using-biblatex-in-texshop
@@ -115,7 +106,7 @@
 \section*{Education}
 
 \cventry{}{Halıcıoğlu Data Science Institute, UC San Diego}{}{San Diego, California}{}{}
-\cvline{}{PhD Student, Advised by Yusu Wang, Gal Mishne}
+\cvline{}{PhD Candidate, Advised by Yusu Wang, Gal Mishne}
 
 \cventry{}{The Ohio State University}{}{Columbus, OH}{}{}
 \cvline{}{Bachelor of Science in Mathematics (Honors), \textit{magna cum laude} \hfill May 2022}
@@ -128,10 +119,6 @@
     and geometric data analysis. In particular, I am interested in explainability methods
     for graph neural networks and interpretable manifold learning.
 }    
-
-\nocite{*}
-\boldname{He}{Jesse}{J.}
-\printbibliography[title={Publications}]
 
 \section*{Employment}
 
@@ -172,7 +159,11 @@
 
 \section*{Awards}
 
-\cvline{}{Qualcomm Innovation Fellowship 2024 Winner}
+\cvline{}{Qualcomm Innovation Fellowship 2024}
+
+\nocite{*}
+\boldname{He}{Jesse}{J.}
+\printbibliography[title={Publications}]
 
 % \section*{Service}
 
@@ -198,12 +189,13 @@
 % \cvline{\emph{Reading Classics} SP2020}
 %     {``Deduced and Demonstrated Difficulties in Democratically Determining Decisions''}
 
-\section*{Skills}
-\cvline{Programming}{Python, Matlab, R, C, C++, C\#, Java}
-\cvline{Other}{Git, \LaTeX, Max/MSP/Jitter, Cockos REAPER}
+% \section*{Skills}
+% \cvline{Programming Languages}{Python, Matlab, R, C, C++, C\#, Java}
+% \cvline{Machine Learning}{PyTorch, PyTorch Geometric, Manifold Learning}
+% \cvline{Other}{Git, \LaTeX, Max/MSP/Jitter, Cockos REAPER}
 
-\section*{Languages}
-\cvtripleitem{Mandarin}{Conversational}{Japanese}{Basic}{Spanish}{Basic}
+% \section*{Languages}
+% \cvtripleitem{Mandarin}{Conversational}{Japanese}{Basic}{Spanish}{Basic}
 
 % \section*{Other Interests}
 % % \cvline{Data Science}{Interpretable Graph Learning,
