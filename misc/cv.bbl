@@ -17,6 +17,173 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global/global}
+  \entry{chen2026neuralalgorithmicreasoninggraph}{misc}{}{}
+    \name{author}{5}{}{%
+      {{hash=CS}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Samantha},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Clougherty},
+         familyi={C\bibinitperiod},
+         given={Coleman},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Mishne},
+         familyi={M\bibinitperiod},
+         given={Gal},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=HC}{%
+         family={Holtz},
+         familyi={H\bibinitperiod},
+         given={Chester},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CS+1}
+    \strng{fullhash}{CSHJCCMGHC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2026}
+    \field{labeldatesource}{}
+    \verb{eprint}
+    \verb 2610.07255
+    \endverb
+    \field{note}{(In Submission)}
+    \field{title}{Neural Algorithmic Reasoning for Graph Saddle Point Problems}
+    \verb{url}
+    \verb https://arxiv.org/abs/2610.07255
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.LG}
+    \field{year}{2026}
+  \endentry
+
+  \entry{he2026minarmechanisticinterpretabilityneural}{misc}{}{}
+    \name{author}{7}{}{%
+      {{hash=HJ}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=JH}{%
+         family={Jenne},
+         familyi={J\bibinitperiod},
+         given={Helen},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=VM}{%
+         family={Vargas},
+         familyi={V\bibinitperiod},
+         given={Max},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={Davis},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Mishne},
+         familyi={M\bibinitperiod},
+         given={Gal},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=WY}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Yusu},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=KH}{%
+         family={Kvinge},
+         familyi={K\bibinitperiod},
+         given={Henry},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HJ+1}
+    \strng{fullhash}{HJJHVMBDMGWYKH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2026}
+    \field{labeldatesource}{}
+    \verb{eprint}
+    \verb 2602.21442
+    \endverb
+    \field{note}{(In Submission)}
+    \field{title}{MINAR: Mechanistic Interpretability for Neural Algorithmic Reasoning}
+    \verb{url}
+    \verb https://arxiv.org/abs/2602.21442
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.LG}
+    \field{year}{2026}
+  \endentry
+
+  \entry{kohli2026robustboundarydetectiondensity}{misc}{}{}
+    \name{author}{5}{}{%
+      {{hash=KD}{%
+         family={Kohli},
+         familyi={K\bibinitperiod},
+         given={Dhruv*},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{J. He}*},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=HC}{%
+         family={Holtz},
+         familyi={H\bibinitperiod},
+         given={Chester},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Cloninger},
+         familyi={C\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Mishne},
+         familyi={M\bibinitperiod},
+         given={Gal},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KD+1}
+    \strng{fullhash}{KDtHCCAMG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2026}
+    \field{labeldatesource}{}
+    \field{addendum}{*Equal Contribution}
+    \verb{eprint}
+    \verb 2411.18942
+    \endverb
+    \field{note}{(In Submission)}
+    \field{title}{Robust boundary detection and density estimation using doubly stochastic scaling of the {Gaussian} kernel}
+    \verb{url}
+    \verb https://arxiv.org/abs/2411.18942
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{math.ST}
+    \field{year}{2026}
+  \endentry
+
   \entry{he2026local}{inproceedings}{}{}
     \name{author}{3}{}{%
       {{hash=HJ}{%
@@ -105,123 +272,6 @@
     \verb https://raw.githubusercontent.com/mlresearch/v334/main/assets/jenne26
     \verb a/jenne26a.pdf
     \endverb
-    \field{year}{2026}
-  \endentry
-
-  \entry{he2026minarmechanisticinterpretabilityneural}{misc}{}{}
-    \name{author}{7}{}{%
-      {{hash=HJ}{%
-         family={He},
-         familyi={H\bibinitperiod},
-         given={J.},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=JH}{%
-         family={Jenne},
-         familyi={J\bibinitperiod},
-         given={Helen},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=VM}{%
-         family={Vargas},
-         familyi={V\bibinitperiod},
-         given={Max},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=BD}{%
-         family={Brown},
-         familyi={B\bibinitperiod},
-         given={Davis},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=MG}{%
-         family={Mishne},
-         familyi={M\bibinitperiod},
-         given={Gal},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=WY}{%
-         family={Wang},
-         familyi={W\bibinitperiod},
-         given={Yusu},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=KH}{%
-         family={Kvinge},
-         familyi={K\bibinitperiod},
-         given={Henry},
-         giveni={H\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{HJ+1}
-    \strng{fullhash}{HJJHVMBDMGWYKH1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2026}
-    \field{labeldatesource}{}
-    \verb{eprint}
-    \verb 2602.21442
-    \endverb
-    \field{note}{(In Submission)}
-    \field{title}{MINAR: Mechanistic Interpretability for Neural Algorithmic Reasoning}
-    \verb{url}
-    \verb https://arxiv.org/abs/2602.21442
-    \endverb
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{cs.LG}
-    \field{year}{2026}
-  \endentry
-
-  \entry{kohli2026robustboundarydetectiondensity}{misc}{}{}
-    \name{author}{5}{}{%
-      {{hash=KD}{%
-         family={Kohli},
-         familyi={K\bibinitperiod},
-         given={Dhruv},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=HJ}{%
-         family={He},
-         familyi={H\bibinitperiod},
-         given={J.},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=HC}{%
-         family={Holtz},
-         familyi={H\bibinitperiod},
-         given={Chester},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=CA}{%
-         family={Cloninger},
-         familyi={C\bibinitperiod},
-         given={Alexander},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=MG}{%
-         family={Mishne},
-         familyi={M\bibinitperiod},
-         given={Gal},
-         giveni={G\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{KD+1}
-    \strng{fullhash}{KDHJHCCAMG1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2026}
-    \field{labeldatesource}{}
-    \field{addendum}{Co-first author}
-    \verb{eprint}
-    \verb 2411.18942
-    \endverb
-    \field{note}{(In Submission)}
-    \field{title}{Robust boundary detection and density estimation using doubly stochastic scaling of the {Gaussian} kernel}
-    \verb{url}
-    \verb https://arxiv.org/abs/2411.18942
-    \endverb
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{math.ST}
     \field{year}{2026}
   \endentry
 
