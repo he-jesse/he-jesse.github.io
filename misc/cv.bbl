@@ -138,12 +138,14 @@
       {{hash=KD}{%
          family={Kohli},
          familyi={K\bibinitperiod},
-         given={Dhruv*},
+         given={Dhruv},
          giveni={D\bibinitperiod},
       }}%
-      {{hash=t}{%
-         family={\textbf{J. He}*},
-         familyi={t\bibinitperiod},
+      {{hash=HJ}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
       }}%
       {{hash=HC}{%
          family={Holtz},
@@ -165,12 +167,12 @@
       }}%
     }
     \strng{namehash}{KD+1}
-    \strng{fullhash}{KDtHCCAMG1}
+    \strng{fullhash}{KDHJHCCAMG1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2026}
     \field{labeldatesource}{}
-    \field{addendum}{*Equal Contribution}
+    \field{addendum}{(Equal Contribution)}
     \verb{eprint}
     \verb 2411.18942
     \endverb
